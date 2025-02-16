@@ -1,0 +1,152 @@
+
+
+body {
+    background-color: #f6f6f6;
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+/***** HERO BANNER *****/
+.hero {
+    position: relative;        /* Permite colocar contenido encima */
+    width: 100%;
+    height: 400px;             /* Ajusta la altura según tu gusto */
+    background: url("/HotelCasaPatrones/img/Hero1.jpg") center/cover no-repeat;
+    /* 'center/cover' hace que la imagen se ajuste manteniendo la proporción */
+    display: flex;
+    align-items: center;       /* Centra verticalmente el contenido */
+    justify-content: center;   /* Centra horizontalmente el contenido */
+  }
+  
+  .hero-content {
+    text-align: center;
+    color: #fff;               /* Texto blanco para contrastar con la imagen */
+    background: rgba(0,0,0,0.3); /* Opcional: un fondo semi-transparente */
+    padding: 20px;             /* Espacio interno alrededor del texto */
+    border-radius: 5px;        /* Esquinas redondeadas, opcional */
+  }
+  
+  .hero-content h1 {
+    font-size: 2.5rem;
+    margin: 0 0 10px;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #f90;    /* Color de botón */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  .hero-button:hover {
+    background-color: #c60;    /* Efecto hover */
+  }
+  
+  /***** SECCIÓN RESTAURANT *****/
+.restaurant-section {
+  text-align: center;
+  margin: 40px auto; /* Espacio superior e inferior */
+  max-width: 1200px; /* Limita el ancho en pantallas grandes */
+  padding: 0 20px;   /* Espacio lateral para pantallas pequeñas */
+}
+
+.restaurant-section h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.restaurant-description {
+  font-size: 1.1rem;
+  color: #555; /* Color de texto un poco gris */
+  margin-bottom: 20px;
+}
+
+/***** SECCIÓN PLATOS POPULARES *****/
+.popular-dishes {
+  text-align: center;
+  margin: 40px auto;
+  max-width: 1200px;
+  padding: 0 20px;
+}
+
+.popular-dishes h3 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+/***** CONTENEDOR DE TARJETAS *****/
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;       /* Permite que las tarjetas bajen de línea en pantallas pequeñas */
+  justify-content: center; /* Centra las tarjetas */
+  gap: 20px;             /* Espacio entre tarjetas */
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 250px;          /* Ancho fijo para cada tarjeta */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  overflow: hidden;
+  text-align: left;      /* Alineación interna de la tarjeta */
+}
+
+.card img {
+  width: 100%;
+  height: 180px;       /* Ajusta la altura a tu preferencia */
+  object-fit: cover;   /* Recorta la imagen para llenar el espacio */
+  display: block;      /* Quita espacios fantasma en imágenes inline */
+}
+
+
+.card h4 {
+  font-size: 1.2rem;
+  margin: 10px;
+}
+
+.card p {
+  font-size: 0.95rem;
+  margin: 10px;
+  color: #555;
+}
+
+.card .price {
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 15px;
+}
+
+.restaurant-info {
+  margin-top: 100px;  /* Aumenta este valor según necesites */
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 0 20px;
+}
+
+
+.restaurant-info h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.restaurant-info p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555;           /* Color gris suave */
+}
+
+.popular-dishes {
+  margin-top: 100px; /* Ajusta el valor según tu preferencia */
+}
+
